@@ -1,5 +1,5 @@
 <template>
-  <div class="nameslist">
+  <div class="names-list">
     <div class="columns">
       <div class="column is-full">
         <button
@@ -29,7 +29,7 @@
 import Name from "@/components/Name.vue";
 
 export default {
-  name: "nameslist",
+  name: "names-list",
   props: {
     msg: String
   },
