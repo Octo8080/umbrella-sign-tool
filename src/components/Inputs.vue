@@ -1,33 +1,33 @@
 <template>
-  <div class="inputs">
+  <div class="inputs-area">
     <div class="columns">
       <div class="column is-full">
-      <OpinionTitle/>
+        <OpinionTitle />
       </div>
     </div>
     <div class="columns">
       <div class="column is-full">
-        <NamesList/>
+        <NamesList />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import OpinionTitle from '@/components/OpinionTitle.vue'
-import NamesList from '@/components/NamesList.vue'
+import OpinionTitle from "@/components/OpinionTitle.vue";
+import NamesList from "@/components/NamesList.vue";
 
 export default {
-  name: 'inputs',
+  name: "inputs-area",
   components: {
     OpinionTitle,
     NamesList
   }
-}
+};
 </script>
 
 <style>
-.inputs{
-  margin-bottom:100px
-}  
-</style>>
+.inputs {
+  margin-bottom: 100px;
+}</style
+>>
